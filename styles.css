@@ -155,7 +155,7 @@ button {
   font-size: 1.1rem;
   font-family: inherit;
   color: #fff;
-  background: linear-gradient(45deg, #ff6b6b, #ff8e8e);
+  background: linear-gradient(45deg, #ff4d6d, #ff85a1);
   border: none;
   border-radius: 25px;
   cursor: pointer;
@@ -180,7 +180,7 @@ button::before {
 
 button:hover {
   transform: translateY(-3px);
-  box-shadow: 0 5px 20px rgba(255, 107, 107, 0.4);
+  box-shadow: 0 5px 20px rgba(255, 77, 109, 0.4);
 }
 
 button:hover::before {
