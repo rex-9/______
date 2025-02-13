@@ -198,3 +198,26 @@ button:hover::before {
     transform: translateY(-10px) translateX(-50%);
   }
 }
+
+.gift-message {
+  font-style: italic;
+  color: #ffd1dc;
+  font-size: 1.4rem;
+  text-shadow: 0 0 10px rgba(255, 209, 220, 0.3);
+  padding: 2rem;
+  border-top: 1px solid rgba(255, 209, 220, 0.2);
+  border-bottom: 1px solid rgba(255, 209, 220, 0.2);
+  max-width: 800px !important;
+  line-height: 1.8;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px rgba(255, 209, 220, 0.3);
+  }
+
+  to {
+    text-shadow: 0 0 20px rgba(255, 209, 220, 0.6);
+  }
+}
